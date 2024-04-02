@@ -29,6 +29,11 @@ class LoginPage extends StatelessWidget {
                     'Log in',
                     style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   ),
+                  SizedBox(height: 10),
+                  Text(
+                    'Your account',
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                  ),
                   SizedBox(height: 20),
                   Container(
                     alignment: Alignment.bottomLeft,
